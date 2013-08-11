@@ -1,0 +1,29 @@
+/* create by stylus! */
+.info-list {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.info-list li {
+  border-bottom: 1px dashed #fafafa;
+}
+.offer-list {
+  margin-right: -10px;
+}
+.orange {
+  color: #ff7300;
+}
+[class*="grid-"] {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media only screen and (min-width: 1220px) and (max-width: 1419px) {
+  .offer-list {
+    margin-right: -12px;
+  }
+}
+@media only screen and (min-width: 1420px) {
+  .offer-list {
+    margin-right: -14px;
+  }
+}

@@ -1,0 +1,38 @@
+!!!5
+html
+    head
+        meta(charset="gbk")
+        title
+        meta(name="description",content="")
+        meta(name="keywords",content="")
+        link(rel="stylesheet",type="text/css",href="http://style.c.aliimg.com/fdevlib/css/fdev-v4/core/fdev-wide.css")
+        link(rel="stylesheet",type="text/css",href="../css/grid.css")
+        link(rel="stylesheet",type="text/css",href="../css/module/icons.css")
+        link(rel="stylesheet",type="text/css",href="../css/demo.css")
+    body
+        .resize-layout
+            .screen
+                .row.fd-clr
+                    ul.grid-20.h-list
+                        - for (var x = 1; x < 10; x++)
+                            .grid-2 行业-#{x}
+                        .grid-2.grid-fixed 行业-10
+                .grid-4
+                    ul.info-list
+                        li 阿里战略投资穷游网
+                        li 超热销当季女装 店主拿货最多
+                        li 政策加码 治理钢市产能过剩
+                        li 阿里战略投资穷游网
+                        li 超热销当季女装 店主拿货最多
+                        li 政策加码 治理钢市产能过剩
+                        li 阿里战略投资穷游网
+                        li 超热销当季女装 店主拿货最多
+                        li 政策加码 治理钢市产能过剩
+                .grid-16.grid-fixed 
+                    ul.offer-list
+                        include offer-cell.jade
+                        include offer-cell.jade
+                        include offer-cell.jade
+                        include offer-cell.jade
+                        include offer-cell.jade
+        script(src="../js/merge.js")

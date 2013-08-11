@@ -1,0 +1,41 @@
+!!!5
+html
+    head
+        meta(charset="gbk")
+        title
+        meta(name="description",content="")
+        meta(name="keywords",content="")
+        link(rel="stylesheet",type="text/css",href="http://style.c.aliimg.com/fdevlib/css/fdev-v4/core/fdev-wide.css")
+        link(rel="stylesheet",type="text/css",href="../css/grid.css")
+    body
+        .resize-layout
+            .screen
+                .row.fd-clr
+                    - for (var x = 0; x < 19; x++)
+                        .grid-1 grid-1
+                    .grid-1.grid-fixed grid-1
+                .row.fd-clr
+                    - for (var x = 0; x < 9; x++)
+                        .grid-2 grid-2
+                    .grid-2.grid-fixed grid-2
+                .row.fd-clr
+                    - for (var x = 0; x < 4; x++)
+                        .grid-4 grid-4
+                    .grid-4.grid-fixed grid-4
+                .row.fd-clr
+                    - for (var x = 0; x < 3; x++)
+                        .grid-5 grid-5
+                    .grid-5.grid-fixed grid-5
+                .row.fd-clr
+                    .grid-10 grid-10
+                    .grid-10.grid-fixed grid-10
+                .row.fd-clr
+                    .grid-20.grid-fixed grid-20
+                .row.fd-clr
+                    .grid-8 grid-8
+                    .grid-8 grid-8
+                    .grid-4.grid-fixed grid-4
+                .row.fd-clr
+                    .grid-12 grid-12
+                    .grid-8.grid-fixed grid-8
+        script(src="../js/merge.js")

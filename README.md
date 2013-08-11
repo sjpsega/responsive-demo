@@ -4,11 +4,38 @@
 * 囊括990，1190，1390三种宽度
 * 根据三种跨度，对grid的宽度做调整
 
+<table>
+	<thead>
+		<th></th>
+		<th>990px</th>
+		<th>1190px</th>
+		<th>1390px</th>
+	</thead>
+	<tbody>
+    	<tr>
+        	<td>单个Grid宽度</td>
+        	<td>40px</td>
+	        <td>44px</td>
+    	    <td>48px</td>
+	    </tr>
+    	<tr>
+        	<td>Grid间距</td>
+	        <td>10px</td>
+    	    <td>12px</td>
+        	<td>14px</td>
+	    </tr>
+    </tbody>
+</table>
+
 ## 优点
-* 不使用display:none的做法，因为在实际工作中，较难界定模块的重要性，根据宽度的不同，隐藏模块，很大可能会受到业务方的反对
-* 不仅根据宽度的不同，修改grid的宽度，还修改默认的字体大小，让不同宽度下，使用者均有良好的阅读体验
+* 不使用display:none的做法，因为在实际工作中，较难界定模块的重要性，根据宽度的不同，隐藏模块，很大可能会受到业务方的反对；多余的模块也会增加运营的工作量
+* 不仅根据页面宽度的不同，修改grid的宽度，还修改默认的字体大小，让不同宽度下，使用者均有良好的阅读体验
 
 ## 缺点
 * 对背景图(background-image)较难处理
 
+
 ## demo
+[Grid](http://sjpsega.github.io/responsive-demo/html/grid.html)
+
+[Demo](http://sjpsega.github.io/responsive-demo/html/demo.html)

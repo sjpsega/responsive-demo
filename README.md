@@ -24,8 +24,16 @@
     	    <td>12px</td>
         	<td>14px</td>
 	    </tr>
+	    <tr>
+        	<td>默认字体大小</td>
+	        <td>12px</td>
+    	    <td>14px</td>
+        	<td>16px</td>
+	    </tr>
     </tbody>
 </table>
+
+* IE8及以下版本浏览器的media query通过[Respond.js](https://github.com/scottjehl/Respond)实现
 
 ## 优点
 * 不使用display:none的做法，因为在实际工作中，较难界定模块的重要性，根据宽度的不同，隐藏模块，很大可能会受到业务方的反对；多余的模块也会增加运营的工作量
@@ -33,6 +41,7 @@
 
 ## 缺点
 * 对背景图(background-image)较难处理
+* IE6/7下的img缩放需要借助js实现
 
 
 ## demo

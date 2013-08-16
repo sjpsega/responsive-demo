@@ -32,7 +32,7 @@
 	    </tr>
     </tbody>
 </table>
-
+* img图片响应(IE6/7需要使用js实现)
 * IE8及以下版本浏览器的media query通过[Respond.js](https://github.com/scottjehl/Respond)实现
 
 ## 优点

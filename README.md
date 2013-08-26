@@ -15,8 +15,8 @@
     	<tr>
         	<td>单个Grid宽度</td>
         	<td>40px</td>
-	        <td>44px</td>
-    	    <td>48px</td>
+	        <td>48px</td>
+    	    <td>56px</td>
 	    </tr>
     	<tr>
         	<td>Grid间距</td>
